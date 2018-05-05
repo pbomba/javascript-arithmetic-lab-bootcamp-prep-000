@@ -28,13 +28,8 @@ function dec(n){
   return n;
 }
 
-function makeInt(n, base){
- parseInt(n, 10);
- if (n){
-   return n;
- } else {
-   return 0;
- }
+function makeInt(n){
+  parseInt(n, 10);
  }
 
 function preserveDecimal(n) {
