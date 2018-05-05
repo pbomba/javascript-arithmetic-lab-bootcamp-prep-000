@@ -28,8 +28,8 @@ function dec(n){
   return n;
 }
 
-function makeInt(n){
- parseInt(n);
+function makeInt(n, base){
+ parseInt(n, base);
  return n; 
 }
 
